@@ -59,11 +59,13 @@ Once opened, start up a server.
 Click on the magnifying glass icon to start an Inspector session. Under desired capabilites create the following JSON object using the text-fields and dropdowns:
 
 ```JSON
-{
-  "platformName": "Android",
-  "deviceName": "emulator-5554",
-  "app": "/Users/tech-a03/Eng7/Mobile_testing/budgetwatch.apk"
-}
+[
+	{
+	  "platformName": "Android",
+	  "deviceName": "emulator-5554",
+	  "app": "/Users/tech-a03/Eng7/Mobile_testing/budgetwatch.apk"
+	}
+]
 ```
 
 Finally start session and you're ready to go!
