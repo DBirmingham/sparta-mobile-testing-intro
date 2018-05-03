@@ -26,7 +26,7 @@ If you do not have bundler installed run within the cloned repo
 gem install bundler
 ```
 
-#### Android Studio setup
+### Android Studio setup
 
 Install the version of Android Studio as linked above and start a new project.
 As you go through setup the key fields required are: 
@@ -43,7 +43,7 @@ Under tools again click AVD Manager and create a new virtual device.
 
 Once this is all complete you should be able to launch a virtual machine running Android 8.0!
 
-#### Appium setup
+### Appium setup
 
 Appium should be relatively ready to go from installation. However, there are some prerequisites. It is a node app and so will require a recent version of nodeJS. This can be done with brew:
 ```
